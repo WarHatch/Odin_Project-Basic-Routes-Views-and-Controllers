@@ -14,4 +14,10 @@ class UsersController < ApplicationController
   def show
     @name = "I am the Show action!"
   end
+
+  # TODO: figure why this doesn't work
+  def create
+    # @name = "I am the Create action! With params: #{params.inspect}"
+    @name = "I am the Create action!"
+  end
 end
